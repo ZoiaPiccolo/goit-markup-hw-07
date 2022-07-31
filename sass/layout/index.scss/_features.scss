@@ -1,17 +1,14 @@
 .feature__list{
-    $set-item:4;
+    --set-item:4;
 }
 
-.feature__item {
-    width: 270px;
-}
 
 .feature__icon-box {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 120px;
-    margin-bottom: $set-gap;
+    margin-bottom: --set-gap;
     border-radius: 4px;
     background-color: $secondary-background-color;
     animation: changeBgcolor 2000ms infinite alternate-reverse cubic-bezier(0.4, 0, 0.2, 1) 1000ms;

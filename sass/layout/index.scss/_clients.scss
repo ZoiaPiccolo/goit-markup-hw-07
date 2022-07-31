@@ -1,11 +1,9 @@
 
 .clients__list {
-   $set-item:6;
+   --set-item:6;
 }
 
-.clients__item {
-    width: 170px;
-}
+
 
 .clients__link {
     display: flex;

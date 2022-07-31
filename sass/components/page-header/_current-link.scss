@@ -1,6 +1,7 @@
 .current-link {
     position: relative;
-
+    color: $accent-color;
+    
     &::after {
             position: absolute;
             bottom: -1px;
