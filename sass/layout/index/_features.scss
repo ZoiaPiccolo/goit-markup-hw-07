@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 120px;
-    margin-bottom: --set-gap;
+    margin-bottom: var(--set-gap);
     border-radius: 4px;
     background-color: $secondary-background-color;
     animation: changeBgcolor 2000ms infinite alternate-reverse cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
